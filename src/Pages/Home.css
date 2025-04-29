@@ -1,0 +1,45 @@
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background: #141010;
+}
+::-webkit-scrollbar-thumb {
+    background: #ddebea;
+    border-radius: 40px;
+    height: 10vh;
+    text-align: center;
+}
+::-webkit-scrollbar-thumb:hover {
+    transition: all 2s linear;
+    background: #796767;
+}
+
+.this{
+    background: linear-gradient(rgba(99, 97, 97, 0.12),rgba(226, 34, 34, 0.568));
+
+}
+.head{
+    color: rgb(227, 235, 230);
+    text-shadow: 16px 8px 5px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: italic;
+    font-variant: small-caps;
+}
+.devlop{
+    color: rgb(79, 88, 54);
+    font-size: 30px;
+    text-decoration: 2px solid underline gray;
+    font-family: serif;
+}
+.ani{
+    animation: heading 2s linear;
+    animation-delay: 0.2s;
+    animation-duration: 2s;
+}
+@keyframes heading {
+    from{filter: blur(30px);}
+    to{}
+}

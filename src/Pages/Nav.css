@@ -1,0 +1,26 @@
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: rgb(184, 157, 123);
+    
+}
+li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+li a:hover{
+    transition: all 4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: rgb(48, 42, 42);
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 11px 12px 3px;
+}
+main button{
+    float: right;
+}

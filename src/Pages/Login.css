@@ -1,0 +1,45 @@
+.aL{
+    animation: heading 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-delay: 0.2s;
+    animation-duration: 3s;
+}
+@keyframes heading {
+    from{filter: saturate(30%);}
+    to{}
+}
+
+.form{
+    margin-top: 50px;
+    background: linear-gradient(rgb(47, 185, 185) ,rgb(202, 67, 255) 20%,rgb(116, 161, 116));
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    margin: 30px;
+    border: 2px solid #283618;
+}
+label{
+    font-size: 20px;
+}
+.form input{
+    background-color: black;
+    color: aliceblue;
+    text-align: center; 
+    border-radius: 30px;
+    padding: 5px;  
+}
+.form input::placeholder{
+    color: gray;
+}
+form.link{
+    color: #283618;
+}
+.link:hover{
+    color: whitesmoke;
+}
+p .link{
+    color: #283618;
+}
+p .link:hover{
+    color: whitesmoke;
+    /* background-color: antiquewhite; */
+}

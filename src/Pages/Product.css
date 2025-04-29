@@ -1,0 +1,9 @@
+.phead{
+    animation: head 2s cubic-bezier(0.39, 0.575, 0.565, 1);
+    animation-delay: 0s;
+    animation-duration: 2s;
+}
+@keyframes head {
+    from{ margin-left: 300px;}
+    to{margin: 0;}
+}

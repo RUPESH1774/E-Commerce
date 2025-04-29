@@ -1,0 +1,44 @@
+.all{
+    background: linear-gradient(gray,rgb(121, 182, 124));
+    padding: 50px;
+    animation: heading 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-delay: 0.1s;
+    animation-duration: 3s;
+}
+@keyframes heading {
+    from{filter: blur(30px);}
+    to{}
+}
+.heading{
+    background-color: #415a77;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    font-size: 25px;
+    color: aliceblue;
+}
+form label{
+    color: rgb(34, 46, 56);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 530;
+    text-shadow: 10px 11px 13px;
+    
+}
+form input{
+    background-color: black;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 8px 10px 11px black;
+    
+}
+form input::placeholder{
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+}
+.login img:hover{
+    transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: #2b3642;
+    
+}
