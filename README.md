@@ -1,13 +1,15 @@
 E-Commerce Website
  
  Tech Stack
-Frontend: React.js
 
-UI Framework: Bootstrap 5
+✔Frontend: React.js
 
-API Integration: Fake Store API / Custom REST API
+✔UI Framework: Bootstrap 5
+
+✔API Integration: Fake Store API / Custom REST API
 
 🌟 Key Features
+
 ⭐Product Listing Page
 
 Fetches product data dynamically from the API
