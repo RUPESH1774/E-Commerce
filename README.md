@@ -1,12 +1,44 @@
-# React + Vite
+E-Commerce Website
+ Tech Stack
+Frontend: React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+UI Framework: Bootstrap 5
 
-Currently, two official plugins are available:
+API Integration: Fake Store API / Custom REST API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌟 Key Features
+⭐Product Listing Page
 
-## Expanding the ESLint configuration
+Fetches product data dynamically from the API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Displays products in a responsive Bootstrap grid layout
+
+Includes product images, titles, prices, and ratings
+
+⭐Product Detail Page
+
+Dynamic route for each product
+
+Shows detailed description, category, and image
+
+Option to add product to cart
+
+⭐Shopping Cart
+
+Add/remove products from the cart
+
+Updates total price dynamically
+
+Uses React state or Context API for cart management
+
+User Authentication (Optional)
+
+Register/Login using JWT or dummy login (if integrated)
+
+⭐API Integration
+
+Integrated with Fake Store API (or similar)
+
+Uses axios/fetch to retrieve and post data
+
+Handles loading and error states
