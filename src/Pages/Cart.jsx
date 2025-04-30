@@ -55,8 +55,7 @@ export default function Cart() {
       </div>
       {cartItems.length > 0 && (
         <div className="text-center my-4">
-          <Button className="btn btn-outline-danger mx-3" onClick={clearCart}>Clear Cart</Button>
-          
+          <button className="btn btn-outline-danger mx-3" onClick={clearCart}>Clear Cart</button>
           <hr />
           <h4 className="text-center">Total: ${totalPrice.toFixed(2)}</h4>
           
